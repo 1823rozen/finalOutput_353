@@ -10,39 +10,30 @@ main {
 }
 
 .contact-card {
-    background-color: #fb7ac3;
+    background-color: #806EDB;
     justify-content: center;
     align-items: center;
     display: flex;
-    /* flex-direction: row; */
+    flex-wrap: wrap;
     height: 500px;
     width: 1000px;
     border-radius: 15px;
     box-shadow: 0 20px 40px rgba(46, 22, 90, 0.875);
 }
 
-/* .container {
-    display: flex;
-    flex: 0 1 700px;
-    margin: auto;
-    padding: 10px;
-} */
 
 .contact-info {
     color: #FFD100;
-    /* padding: 10px 10px; */
     text-align: center;
     display: flex;
     flex-direction: column;
-    /* flex: 0 1 700px; */
-    /* margin: 30px 45px; */
     max-height: auto;
     width: 450px;
     padding: 30px;
 }
 
 .input-details {
-    color: #FFD100;
+    color: #fffdf5;
     flex-direction: column;
     /* align-items: center; */
     background-color: #806EDB;
@@ -60,6 +51,18 @@ main {
 .contact-info h1, h2, p {
     font-family: 'Jua', sans-serif;
     margin: 5px 15px;
+}
+
+.contact-info h1 {
+    font-size: 50px;
+}
+
+.contact-info h2 {
+    font-size: 20px;
+}
+
+.contact-info p {
+    color: #fffdf5;
 }
 
 .field-input-box input {
@@ -88,10 +91,16 @@ main {
 }
 
 .field-button .send{
-    color: #FFD100;
-    padding: 5px;
+    color: #000000;
+    padding: 5px 10px;
     margin-top: 10px;
     border-radius: 10px;
     border: 1px solid #FFD100;
-    background-color: transparent;
+    background-color: #FFD100;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+.field-button .send:hover{
+    background-color: #fffdf5;
 }

@@ -6,9 +6,7 @@
 
 body,
 html {
-  /*background: linear-gradient(180deg, #fff8b7 30%, #fff7ae 50%, #806EDB 90%); */
   background-image: url('./assets/img/background.png');
-  /* Ensure this path is correct */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -23,11 +21,9 @@ html {
   src: url('./assets/typeface/Inter.ttf') format('truetype');
 }
 
-/*header*/
 .header {
   top: 0;
   left: 0;
-  background-color: #160b1e;
   padding: 30px 10%;
   width: 100%;
   display: flex;
@@ -63,7 +59,7 @@ html {
 .header-nav ul li a {
   font-family: 'Inter', sans-serif;
   text-decoration: none;
-  color: #f2f0ff;
+  color: #806EDB;
   cursor: pointer;
   transition: 0.3s ease;
 }
@@ -121,8 +117,6 @@ input::placeholder {
 .social-media {
   display: flex;
   justify-content: center;
-  /* padding: 35px; */
-  /* margin-top: 35px; */
   gap: 25px;
 }
 
